@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A84FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0052CC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield background -->
+  <path d="M 128 24 L 200 56 L 200 140 C 200 200 128 224 128 224 C 128 224 56 200 56 140 L 56 56 Z" 
+        fill="url(#shieldGradient)" stroke="white" stroke-width="3"/>
+  
+  <!-- Credit card inside shield -->
+  <rect x="80" y="100" width="96" height="60" rx="8" fill="white" stroke="#0A84FF" stroke-width="2"/>
+  
+  <!-- Card chip -->
+  <g transform="translate(95, 115)">
+    <rect x="0" y="0" width="12" height="12" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+    <rect x="14" y="0" width="12" height="12" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+    <rect x="0" y="14" width="12" height="12" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+    <rect x="14" y="14" width="12" height="12" fill="#FFD700" stroke="#FFA500" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Check mark on shield -->
+  <g transform="translate(128, 140)">
+    <path d="M -8 0 L -2 6 L 10 -6" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Glow effect -->
+  <circle cx="128" cy="128" r="130" fill="none" stroke="white" stroke-width="1" opacity="0.2"/>
+</svg>
