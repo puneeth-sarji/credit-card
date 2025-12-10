@@ -13,6 +13,9 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Data files
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
